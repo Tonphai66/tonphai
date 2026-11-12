@@ -1,0 +1,9 @@
+name = input("กรุณาป้อนชื่อของคุณ:")
+year = int(input("กรุณาป้อนปีเกิดของคุณ (พ.ศ.):"))
+
+print("ชื่อของคุณ = ",name)
+print("ปีเกิด = ",year)
+print("ปีนี้คุณมีอายุ = ",2567-year)
+
+print(type(name))
+print(type(year))
