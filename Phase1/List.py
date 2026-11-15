@@ -1,5 +1,9 @@
-#List
-numbers=[50,10,30,45,20,1]
-numbers.sort()
-numbers.reverse()
-print(numbers)
+# การใช้งานโครงสร้างข้อมูลแบบ List (รายการ) ใน Python
+
+numbers = [50, 10, 30, 45, 20, 1]  # สร้าง List ชื่อ numbers สำหรับเก็บข้อมูลตัวเลขหลายๆ ค่า
+
+numbers.sort()  # เรียงลำดับตัวเลขใน List จากค่าน้อยไปหาค่ามาก (Ascending Order)
+
+numbers.reverse()  # กลับลำดับข้อมูลใน List จากหลังมาหน้า (ส่งผลให้กลายเป็นเรียงจากมากไปน้อย / Descending Order)
+
+print(numbers)  # แสดงผลลัพธ์ข้อมูลใน List ที่ผ่านการจัดเรียงและกลับด้านเรียบร้อยแล้วออกทางหน้าจอ

@@ -1,7 +1,7 @@
-#break / continue
-for counter in range(1,11):
-    if counter%2==0:
-        continue
-    print(counter)
+# การใช้งานคำสั่งควบคุมลูป (continue)
+for counter in range(1, 11):  # วนลูปค่า counter ตั้งแต่ 1 ถึง 10
+    if counter % 2 == 0:  # ตรวจสอบว่า counter เป็นเลขคู่หรือไม่ (หารด้วย 2 แล้วเหลือเศษ 0)
+        continue  # ถ้าเป็นเลขคู่ ให้ข้ามคำสั่งที่เหลือในรอบนี้ แล้วไปเริ่มรอบถัดไปทันที
+    print(counter)  # แสดงค่า counter (จะแสดงเฉพาะเลขคี่ เพราะเลขคู่ถูก continue ข้ามไปแล้ว)
 
-print("จบการทำงาน")
+print("จบการทำงาน")  # แสดงข้อความนี้เมื่อลูปทำงานครบทุกรอบเรียบร้อยแล้ว
